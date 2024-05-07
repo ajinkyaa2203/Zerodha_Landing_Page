@@ -1,0 +1,70 @@
+<!-- STYLING -->
+
+<h1
+  style="
+    font-size: 100px;
+    color: red;
+    background-color: aqua;
+    border-radius: 10px;
+    border: 5px dashed black;
+    /* 3 values -> width, type_of_border, color */
+    padding: 10px;
+    margin: 35px;
+    box-shadow: 20px -20px 10px magenta;
+    /* 3 values -> +ve is right side shadow, -ve is left,, +ve is bottom shadow, -ve is upper shadow,, bluriness increases, color of shadow */
+  "
+>
+  hii there
+</h1>
+
+<!-- Padding is the space inside a div and margin is the space outside the div. Border separates the margin and padding. -->
+
+<br />
+
+<!-- POSITIONING -->
+
+<!-- divs takes the whole width which is available, span takes only as much space as required. 
+Can you make divs take only the space they need -->
+
+<div
+  style="
+    padding-left: 100px;
+    padding-right: 100px;
+    background: red;
+    margin-left: 100px;
+    margin-right: 100px;
+  "
+>
+  <span>Zerodha</span>
+  <span>Sign Up</span>
+</div>
+
+<!-- FLEXBOX -->
+<!-- what display:flex do? It says ki all the children elements should lie in the same row -->
+<!-- justify-content: flex-start (by default ); 
+justify-content: space-between(all child elemenst will be spaced equally)-->
+
+<div style="display: flex; justify-content: space-between">
+  <div>hello</div>
+  <div>hello2</div>
+  <div>hi there</div>
+  <div>hi there2</div>
+</div>
+
+<div
+  style="
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+  "
+>
+  <img src="logo.svg" alt="image" width="200" />
+  <div style="display: flex">
+    <div>Sign up</div>
+    <div>About</div>
+    <div>Products</div>
+    <div>Pricing</div>
+    <div>Support</div>
+  </div>
+</div>
